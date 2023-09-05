@@ -139,6 +139,8 @@ color: var(--white);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -314,6 +316,8 @@ margin-top: 17.5px;
 .footer{
     background: var(--navyblue);
     padding: 120px 0px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .social-media-icon-footer{
