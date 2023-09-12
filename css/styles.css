@@ -316,8 +316,6 @@ margin-top: 17.5px;
 .footer{
     background: var(--navyblue);
     padding: 120px 0px;
-    width: 1440px;
-    margin: 0 auto;
 }
 
 .social-media-icon-footer{
@@ -384,6 +382,11 @@ letter-spacing: 0.64px;
 
 .portfolio-feature-content{
     padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
+.portfolio-feature-content:hover{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-feature-title{
@@ -392,7 +395,6 @@ letter-spacing: 0.64px;
 
 .portfolio-features-list-item{
     display: inline-block;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
